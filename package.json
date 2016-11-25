@@ -1,0 +1,33 @@
+{
+  "name": "lambda-sqlite3-sample",
+  "version": "1.0.0",
+  "description": "sqlite3 sample",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gulp deploy",
+    "js": "gulp js",
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "lambda",
+    "gulp",
+    "mocha",
+    "sample"
+  ],
+  "author": "tomiyan",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.0.2",
+    "mocha": "^2.3.4",
+    "node-aws-lambda": "^0.1.6",
+    "run-sequence": "^1.1.5",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "sqlite3": "^3.1.8"
+  }
+}
